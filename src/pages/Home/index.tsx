@@ -1,7 +1,11 @@
-import * as HomeStyles from './styles.ts';
+import * as HomeStyles from "./styles.ts";
+
+import { useTranslation } from "../../hooks/index.ts";
 
 function Home() {
-  return <HomeStyles.Container>My new App</HomeStyles.Container>;
+  const { t } = useTranslation("home");
+
+  return <HomeStyles.Container>{t("title")}</HomeStyles.Container>;
 }
 
 export default Home;

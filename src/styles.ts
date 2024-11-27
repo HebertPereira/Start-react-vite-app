@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-named-as-default
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   html,

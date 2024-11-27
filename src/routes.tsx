@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from './pages/Home/index.tsx';
+import Home from "./pages/Home/index.tsx";
 
 function GlobalRoutes() {
   return (
